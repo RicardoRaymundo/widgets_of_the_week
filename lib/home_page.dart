@@ -6,7 +6,7 @@ import 'package:widgets_of_the_week/widgets/safe_area/safe_area.dart';
 import 'package:widgets_of_the_week/widgets/expanded/expanded.dart';
 import 'package:widgets_of_the_week/widgets/wrap/wrap.dart';
 import 'package:widgets_of_the_week/widgets/animated_container/animated_container.dart';
-
+import 'package:widgets_of_the_week/widgets/opacity/opacity.dart';
 
 class HomePage extends StatelessWidget {
   // Mapa de Widgets a serem listados
@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
     'Expanded': ExpandedPage(),
     'Wrap': WrapPage(),
     'Animated Container': AnimatedContainerPage(),
-    'Safe Areasx': SafeAreaPage(),
+    'Opacity': OpacityPage(),
     'Safe Asdareax': SafeAreaPage(),
     'Safe Arcceax': SafeAreaPage(),
     'Safe Arzeax': SafeAreaPage(),
