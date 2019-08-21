@@ -61,7 +61,7 @@ class ExpandedPage extends StatelessWidget {
     });
   }
 
-  // Controi a pagina, chamando as devidas funções de criação de pagina
+  // Constrói a página, chamando as devidas funções de criação de pagina
   // centralizada e dos Expandeds
   Widget _buildContent() {
     return _centeredLayout(

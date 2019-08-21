@@ -7,7 +7,7 @@ class WrapPage extends StatefulWidget {
 
 class _WrapPageState extends State<WrapPage> {
 
-  //contexto global
+  // Contexto global
   BuildContext context;
 
   @override
@@ -23,7 +23,7 @@ class _WrapPageState extends State<WrapPage> {
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
 
-                  // fonte importada do diretorio fonts e
+                  // Fonte importada do diretorio fonts e
                   // declarada no pubspeck.yaml
                   fontFamily: 'Ubuntu Regular'),
             ),

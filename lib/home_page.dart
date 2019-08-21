@@ -5,6 +5,7 @@ import 'home_page_card.dart';
 import 'package:widgets_of_the_week/widgets/safe_area/safe_area.dart';
 import 'package:widgets_of_the_week/widgets/expanded/expanded.dart';
 import 'package:widgets_of_the_week/widgets/wrap/wrap.dart';
+import 'package:widgets_of_the_week/widgets/animated_container/animated_container.dart';
 
 
 class HomePage extends StatelessWidget {
@@ -13,7 +14,7 @@ class HomePage extends StatelessWidget {
     'Safe Area': SafeAreaPage(),
     'Expanded': ExpandedPage(),
     'Wrap': WrapPage(),
-    'Safe Areaa': SafeAreaPage(),
+    'Animated Container': AnimatedContainerPage(),
     'Safe Areasx': SafeAreaPage(),
     'Safe Asdareax': SafeAreaPage(),
     'Safe Arcceax': SafeAreaPage(),
