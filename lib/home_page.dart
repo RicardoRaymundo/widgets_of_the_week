@@ -4,13 +4,15 @@ import 'home_page_card.dart';
 
 import 'package:widgets_of_the_week/widgets/safe_area/safe_area.dart';
 import 'package:widgets_of_the_week/widgets/expanded/expanded.dart';
+import 'package:widgets_of_the_week/widgets/wrap/wrap.dart';
+
 
 class HomePage extends StatelessWidget {
   // Mapa de Widgets a serem listados
   final Map<String, Widget> weeklyWidgets = {
     'Safe Area': SafeAreaPage(),
     'Expanded': ExpandedPage(),
-    'Safe Areal': SafeAreaPage(),
+    'Wrap': WrapPage(),
     'Safe Areaa': SafeAreaPage(),
     'Safe Areasx': SafeAreaPage(),
     'Safe Asdareax': SafeAreaPage(),
