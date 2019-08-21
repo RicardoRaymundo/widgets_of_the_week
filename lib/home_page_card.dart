@@ -17,30 +17,18 @@ class HomePageCard extends StatelessWidget {
       height: 115.0,
       child: Card(
         color: Colors.lightBlueAccent,
-        // Wrap children in a Padding widget in order to give padding.
+        // Posiciona uma area de clique no Card, ao clicar, entra na pagina do exemplo
         child: InkWell(
           onTap: (){
             CustomNavigator.push(context, this.widget, CustomTransitionAnimations.slideTransitionLeft);
           },
           child: Padding(
-            // The class that controls padding is called 'EdgeInsets'
-            // The EdgeInsets.only constructor is used to set
-            // padding explicitly to each side of the child.
             padding: const EdgeInsets.only(
               top: 8.0,
               bottom: 8.0,
               left: 64.0,
             ),
-            // Column is another layout widget -- like stack -- that
-            // takes a list of widgets as children, and lays the
-            // widgets out from top to bottom.
             child: Column(
-              // These alignment properties function exactly like
-              // CSS flexbox properties.
-              // The main axis of a column is the vertical axis,
-              // `MainAxisAlignment.spaceAround` is equivalent of
-              // CSS's 'justify-content: space-around' in a vertically
-              // laid out flexbox.
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[

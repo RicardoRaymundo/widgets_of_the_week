@@ -3,13 +3,17 @@ import 'package:widgets_of_the_week/resourses/resource_custom_navigator.dart';
 import 'package:widgets_of_the_week/resourses/custom_transition_animations.dart';
 import 'not_safe_area.dart';
 
-class MySafeArea extends StatelessWidget {
+class SafeAreaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Align(
         alignment: Alignment.topLeft,
+
+        // É literalmente uma area segura, impedindo do conteudo ser sobreposto
+        // por cantos arredendados de certos aparelhos ou pela appBar do celular
         child: SafeArea(
+          // Especifica a quais lados devem ser aplicados o SafeArea
           left: true,
           top: true,
           right: true,
@@ -24,7 +28,7 @@ class MySafeArea extends StatelessWidget {
         color: Colors.lightBlueAccent,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
         onPressed: () {
-          CustomNavigator.push(context, MyNotSafeArea(),
+          CustomNavigator.push(context, NotSafeAreaPage(),
               CustomTransitionAnimations.slideTransitionLeft);
         },
         child: Text("Sem Safe Area -->"),

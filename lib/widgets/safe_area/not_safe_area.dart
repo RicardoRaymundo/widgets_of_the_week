@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 
-class MyNotSafeArea extends StatelessWidget {
+class NotSafeAreaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
