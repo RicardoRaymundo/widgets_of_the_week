@@ -9,6 +9,8 @@ class FabPage extends StatelessWidget {
       body: Center(
         child: Text('Pressione o botão extendido abaixo'),
       ),
+
+      /// FAB extendido que contém ícone e rótulo
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           /// Adicione o código desejado para quando o botão for pressionado

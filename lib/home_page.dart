@@ -10,6 +10,9 @@ import 'package:widgets_of_the_week/widgets/opacity/widgets_opacity.dart';
 import 'package:widgets_of_the_week/widgets/future_builder/list_json.dart';
 import 'package:widgets_of_the_week/widgets/fade_transition/widgets_fade_transition.dart';
 import 'package:widgets_of_the_week/widgets/fab/widgets_fab.dart';
+import 'package:widgets_of_the_week/widgets/page_view/widgets_page_view.dart';
+import 'package:widgets_of_the_week/widgets/page_view/simple/page_view_simple_main.dart';
+import 'package:widgets_of_the_week/widgets/table/widgets_table.dart';
 
 class HomePage extends StatelessWidget {
   // Mapa de Widgets a serem listados
@@ -22,7 +25,8 @@ class HomePage extends StatelessWidget {
     'Future Builder': JsonList(),
     'Fade Transition': FadeTransitionPage(),
     'Floating Action Button': FabPage(),
-    'Safe Arccceax': SafeAreaPage(),
+    'Page View': PageViewSimplePage(),
+    'Table': WidgetsTablePage(),
   };
 
   @override
