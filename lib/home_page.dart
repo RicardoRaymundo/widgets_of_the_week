@@ -2,23 +2,24 @@ import 'package:flutter/material.dart';
 
 import 'home_page_card.dart';
 
-import 'package:widgets_of_the_week/widgets/safe_area/safe_area.dart';
-import 'package:widgets_of_the_week/widgets/expanded/expanded.dart';
-import 'package:widgets_of_the_week/widgets/wrap/wrap.dart';
-import 'package:widgets_of_the_week/widgets/animated_container/animated_container.dart';
-import 'package:widgets_of_the_week/widgets/opacity/opacity.dart';
+import 'package:widgets_of_the_week/widgets/safe_area/widgets_safe_area.dart';
+import 'package:widgets_of_the_week/widgets/expanded/widgets_expanded.dart';
+import 'package:widgets_of_the_week/widgets/wrap/widgest_wrap.dart';
+import 'package:widgets_of_the_week/widgets/animated_container/widgets_animated_container.dart';
+import 'package:widgets_of_the_week/widgets/opacity/widgets_opacity.dart';
 import 'package:widgets_of_the_week/widgets/future_builder/list_json.dart';
+import 'package:widgets_of_the_week/widgets/fade_transition/widgets_fade_transition.dart';
 
 class HomePage extends StatelessWidget {
   // Mapa de Widgets a serem listados
   final Map<String, Widget> weeklyWidgets = {
     'Safe Area': SafeAreaPage(),
-    'Expanded': ExpandedPage(),
+    'Expanded': WidgetsExpanded(),
     'Wrap': WrapPage(),
     'Animated Container': AnimatedContainerPage(),
     'Opacity': OpacityPage(),
     'Future Builder': JsonList(),
-    'Safe Arcceax': SafeAreaPage(),
+    'Fade Transition': LogoApp(),
     'Safe Arzeax': SafeAreaPage(),
     'Safe Arccceax': SafeAreaPage(),
   };

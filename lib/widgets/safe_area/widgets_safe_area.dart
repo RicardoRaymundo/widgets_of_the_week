@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_of_the_week/resourses/resource_custom_navigator.dart';
 import 'package:widgets_of_the_week/resourses/custom_transition_animations.dart';
-import 'not_safe_area.dart';
+import 'widgets_not_safe_area.dart';
 
 class SafeAreaPage extends StatelessWidget {
   @override

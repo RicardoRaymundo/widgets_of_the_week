@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'json_data.dart';
+import 'data_json.dart';
 
 class DataList extends StatelessWidget {
   // Variavel que recebe o snapshot.data do componente pai

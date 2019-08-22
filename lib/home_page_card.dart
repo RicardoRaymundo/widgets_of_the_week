@@ -52,12 +52,3 @@ class HomePageCard extends StatelessWidget {
     );
   }
 }
-
-/*
-Container(
-padding: EdgeInsets.all(5),
-width: deviceSize.width * 0.5,
-height: 130,
-child: Placeholder(),
-);
- */

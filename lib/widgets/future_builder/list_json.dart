@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'json_data.dart';
+import 'data_json.dart';
 import 'data_list.dart';
 
 
