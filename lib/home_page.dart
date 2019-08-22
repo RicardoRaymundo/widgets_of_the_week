@@ -13,6 +13,7 @@ import 'package:widgets_of_the_week/widgets/fab/widgets_fab.dart';
 import 'package:widgets_of_the_week/widgets/page_view/widgets_page_view.dart';
 import 'package:widgets_of_the_week/widgets/page_view/simple/page_view_simple_main.dart';
 import 'package:widgets_of_the_week/widgets/table/widgets_table.dart';
+import 'package:widgets_of_the_week/widgets/sliver_app_bar/widgets_sliver_app_bar.dart';
 
 class HomePage extends StatelessWidget {
   // Mapa de Widgets a serem listados
@@ -27,6 +28,8 @@ class HomePage extends StatelessWidget {
     'Floating Action Button': FabPage(),
     'Page View': PageViewSimplePage(),
     'Table': WidgetsTablePage(),
+    'Sliver App Bar': WidgetsSliverAppBar(),
+
   };
 
   @override
