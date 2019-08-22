@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/animation.dart';
 
-class LogoApp extends StatefulWidget {
-  _LogoAppState createState() => _LogoAppState();
+class FadeTransitionPage extends StatefulWidget {
+  _FadeTransitionPageState createState() => _FadeTransitionPageState();
 }
 
-class _LogoAppState extends State<LogoApp> with TickerProviderStateMixin {
+class _FadeTransitionPageState extends State<FadeTransitionPage> with TickerProviderStateMixin {
 
   /// Declarando as variaveis: animacão e controlador de animação.
   AnimationController controller;

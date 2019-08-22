@@ -9,6 +9,7 @@ import 'package:widgets_of_the_week/widgets/animated_container/widgets_animated_
 import 'package:widgets_of_the_week/widgets/opacity/widgets_opacity.dart';
 import 'package:widgets_of_the_week/widgets/future_builder/list_json.dart';
 import 'package:widgets_of_the_week/widgets/fade_transition/widgets_fade_transition.dart';
+import 'package:widgets_of_the_week/widgets/fab/widgets_fab.dart';
 
 class HomePage extends StatelessWidget {
   // Mapa de Widgets a serem listados
@@ -19,8 +20,8 @@ class HomePage extends StatelessWidget {
     'Animated Container': AnimatedContainerPage(),
     'Opacity': OpacityPage(),
     'Future Builder': JsonList(),
-    'Fade Transition': LogoApp(),
-    'Safe Arzeax': SafeAreaPage(),
+    'Fade Transition': FadeTransitionPage(),
+    'Floating Action Button': FabPage(),
     'Safe Arccceax': SafeAreaPage(),
   };
 
