@@ -15,6 +15,7 @@ import 'package:widgets_of_the_week/widgets/page_view/simple/page_view_simple_ma
 import 'package:widgets_of_the_week/widgets/table/widgets_table.dart';
 import 'package:widgets_of_the_week/widgets/sliver/widgets_sliver_app_bar.dart';
 import 'package:widgets_of_the_week/widgets/sliver/list_grid/widgets_sliver_list_grid.dart';
+import 'package:widgets_of_the_week/widgets/fade_in_image/widgets_fade_in_image.dart';
 
 
 class HomePage extends StatelessWidget {
@@ -32,6 +33,7 @@ class HomePage extends StatelessWidget {
     'Table': WidgetsTablePage(),
     'Sliver App Bar': WidgetsSliverAppBar(),
     'Sliver List and Grid': WidgetsSliverListGrid(),
+    'Fade In Image': WidgetsFadeInImage(),
 
   };
 
