@@ -17,7 +17,8 @@ import 'package:widgets_of_the_week/widgets/sliver/widgets_sliver_app_bar.dart';
 import 'package:widgets_of_the_week/widgets/sliver/list_grid/widgets_sliver_list_grid.dart';
 import 'package:widgets_of_the_week/widgets/fade_in_image/widgets_fade_in_image.dart';
 import 'package:widgets_of_the_week/widgets/stream_builder/widgets_stream_builder.dart';
-
+import 'package:widgets_of_the_week/widgets/inherited_model/widgets_inherited_model.dart';
+import 'package:widgets_of_the_week/widgets/clip_r_rect/widgets_clip_r_rect.dart';
 
 class HomePage extends StatelessWidget {
   // Mapa de Widgets a serem listados
@@ -36,6 +37,8 @@ class HomePage extends StatelessWidget {
     'Sliver List and Grid': WidgetsSliverListGrid(),
     'Fade In Image': WidgetsFadeInImage(),
     'Stream Builder': WidgetsStreamBuilder(),
+    'Inherited Model': NumberManagerWidget(updateMs: 1000, child: MyAppInherited()),
+    'ClipRRect': CardListScreen(),
   };
 
   @override
