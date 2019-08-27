@@ -55,6 +55,12 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
     - assets/banner.png
+    - assets/donuts1.png
+    - assets/donuts2.png
+    - assets/donuts3.png
+    - assets/donuts4.png
+    - assets/donuts5.png
+    - assets/donuts6.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
