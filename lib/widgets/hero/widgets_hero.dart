@@ -24,6 +24,9 @@ class _WidgetsHeroState extends State<WidgetsHero> {
             var i = index + 1;
 
             return InkWell(
+              /// Envolve a imagem em um Hero
+              /// Cada Hero criado tem sua tag única
+              /// Ao clicar, o Hero faz o push para a pagina de detalhe
               child: Hero(
                 tag: 'donut' + (i).toString(),
                 child: Image.asset('assets/donuts' + (i).toString() + '.png'),
@@ -46,3 +49,5 @@ class _WidgetsHeroState extends State<WidgetsHero> {
     );
   }
 }
+
+/// https://fluttersensei.com/posts/the-toobox-hero-animations/

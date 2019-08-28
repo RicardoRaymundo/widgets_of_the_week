@@ -20,6 +20,10 @@ import 'package:widgets_of_the_week/widgets/stream_builder/widgets_stream_builde
 import 'package:widgets_of_the_week/widgets/inherited_model/widgets_inherited_model.dart';
 import 'package:widgets_of_the_week/widgets/clip_r_rect/widgets_clip_r_rect.dart';
 import 'package:widgets_of_the_week/widgets/hero/widgets_hero.dart';
+import 'package:widgets_of_the_week/widgets/custom_paint/widgets_custom_paint.dart';
+import 'package:widgets_of_the_week/widgets/tooltip/widgets_tooltip.dart';
+import 'package:widgets_of_the_week/widgets/sized_box/widgets_sized_box.dart';
+import 'package:widgets_of_the_week/widgets/layout_builder/widgets_layout_builder.dart';
 
 class HomePage extends StatelessWidget {
   // Mapa de Widgets a serem listados
@@ -41,6 +45,11 @@ class HomePage extends StatelessWidget {
     'Inherited Model': NumberManagerWidget(updateMs: 1000, child: MyAppInherited()),
     'ClipRRect': CardListScreen(),
     'Hero' : WidgetsHero(),
+    'Custom Paint' : WidgetsCustomPaint(),
+    'Tooltip' : WidgetsTooltip(),
+    'Sized Box': WidgetsSizedBox(),
+    'Layout Builder' : WidgetsLayoutBuilder(),
+
   };
 
   @override
