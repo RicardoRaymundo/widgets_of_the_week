@@ -24,6 +24,8 @@ import 'package:widgets_of_the_week/widgets/custom_paint/widgets_custom_paint.da
 import 'package:widgets_of_the_week/widgets/tooltip/widgets_tooltip.dart';
 import 'package:widgets_of_the_week/widgets/sized_box/widgets_sized_box.dart';
 import 'package:widgets_of_the_week/widgets/layout_builder/widgets_layout_builder.dart';
+import 'package:widgets_of_the_week/widgets/fitted_box/widgets_fitted_box.dart';
+import 'package:widgets_of_the_week/widgets/absorb_pointer/widgets_absorb_pointer.dart';
 
 class HomePage extends StatelessWidget {
   // Mapa de Widgets a serem listados
@@ -49,7 +51,8 @@ class HomePage extends StatelessWidget {
     'Tooltip' : WidgetsTooltip(),
     'Sized Box': WidgetsSizedBox(),
     'Layout Builder' : WidgetsLayoutBuilder(),
-
+    'Fitted Box' : WidgetsFittedBox(),
+    'Absorb Pointer' : WidgetsAbsorbPointer(),
   };
 
   @override
