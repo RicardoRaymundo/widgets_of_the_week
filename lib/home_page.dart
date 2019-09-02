@@ -27,6 +27,12 @@ import 'package:widgets_of_the_week/widgets/backdrop_filter/widgets_backdrop_fil
 import 'package:widgets_of_the_week/widgets/align/widgets_align.dart';
 import 'package:widgets_of_the_week/widgets/positioned/widgets_positioned.dart';
 import 'package:widgets_of_the_week/widgets/animated_builder/widgets_animated_builder.dart';
+import 'package:widgets_of_the_week/widgets/value_listenable_builder/widgets_value_listenable_builder.dart';
+import 'package:widgets_of_the_week/widgets/draggable/widgets_draggable.dart';
+import 'package:widgets_of_the_week/widgets/flexible/widgets_flexible.dart';
+import 'package:widgets_of_the_week/widgets/media_query/widgets_media_query.dart';
+import 'package:widgets_of_the_week/widgets/spacer/widgets_spacer.dart';
+import 'package:widgets_of_the_week/widgets/inherited_widget/widgets_inherited_widget.dart';
 
 import 'home_page_card.dart';
 
@@ -63,6 +69,13 @@ class HomePage extends StatelessWidget {
     'Align' : WidgetsAlign(),
     'Positioned' : WidgetsPositioned(),
     'Animated Builder' : WidgetsAnimatedBuilder(),
+    'Value Listenable Builder' : WidgetsValueListenableBuilder(),
+    'Draggable' : WidgetsDraggable(),
+    'Flexible' : WidgetsFlexible(),
+    'Media Query' : WidgetsMediaQuery(),
+    'Spacer' : WidgetsSpacer(),
+    'Inherited Widget' : WidgetsInheritedWidget(),
+
   };
 
   @override
