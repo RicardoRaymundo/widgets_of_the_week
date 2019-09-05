@@ -20,3 +20,5 @@ class WidgetsInheritedWidget extends StatelessWidget {
     );
   }
 }
+
+/// http://stacksecrets.com/flutter/flutter-inherited-widget-basics

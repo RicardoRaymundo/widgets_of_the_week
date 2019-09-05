@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class WidgetsTablePage extends StatefulWidget {
+class WidgetsTable extends StatefulWidget {
   @override
-  _WidgetsTablePageState createState() => _WidgetsTablePageState();
+  _WidgetsTablePage createState() => _WidgetsTablePage();
 }
 
-class _WidgetsTablePageState extends State<WidgetsTablePage> {
+class _WidgetsTablePage extends State<WidgetsTable> {
   bool _isBorderEnabled = false;
   var _actionIcon = Icons.border_all;
 

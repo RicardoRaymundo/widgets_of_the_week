@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class WrapPage extends StatefulWidget {
+class WidgetsWrap extends StatefulWidget {
   @override
-  _WrapPageState createState() => _WrapPageState();
+  _WidgetsWrapState createState() => _WidgetsWrapState();
 }
 
-class _WrapPageState extends State<WrapPage> {
+class _WidgetsWrapState extends State<WidgetsWrap> {
 
-  // Contexto global
+  /// Contexto global
   BuildContext context;
 
   @override

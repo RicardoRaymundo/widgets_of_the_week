@@ -129,7 +129,7 @@ class Item {
   Item(this.name, this.image, this.description, this.clipType);
 }
 
-class CardListScreen extends StatelessWidget {
+class WidgetsCliRRect extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

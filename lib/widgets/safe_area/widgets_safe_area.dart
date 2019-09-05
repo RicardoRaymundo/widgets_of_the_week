@@ -3,7 +3,7 @@ import 'package:widgets_of_the_week/resourses/resource_custom_navigator.dart';
 import 'package:widgets_of_the_week/resourses/custom_transition_animations.dart';
 import 'widgets_not_safe_area.dart';
 
-class SafeAreaPage extends StatelessWidget {
+class WidgetsSafeArea extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

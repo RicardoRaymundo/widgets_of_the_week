@@ -1,12 +1,12 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-class AnimatedContainerPage extends StatefulWidget {
+class WidgetsAnimatedContainer extends StatefulWidget {
   @override
-  AnimatedContainerPageState createState() => AnimatedContainerPageState();
+  _WidgetsAnimatedContainerState createState() => _WidgetsAnimatedContainerState();
 }
 
-class AnimatedContainerPageState extends State<AnimatedContainerPage> {
+class _WidgetsAnimatedContainerState extends State<WidgetsAnimatedContainer> {
   // Definindo as variáveis e seus valores iniciais.
   // Os valores serão alterados ao clicar no botão da página.
   double _width = 50;

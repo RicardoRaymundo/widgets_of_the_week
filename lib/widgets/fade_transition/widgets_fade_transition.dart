@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/animation.dart';
 
-class FadeTransitionPage extends StatefulWidget {
-  _FadeTransitionPageState createState() => _FadeTransitionPageState();
+class WidgetsFadeTransition extends StatefulWidget {
+  _WidgetsFadeTransitionState createState() => _WidgetsFadeTransitionState();
 }
 
-class _FadeTransitionPageState extends State<FadeTransitionPage> with TickerProviderStateMixin {
+class _WidgetsFadeTransitionState extends State<WidgetsFadeTransition> with TickerProviderStateMixin {
 
   /// Declarando as variaveis: animacão e controlador de animação.
   AnimationController controller;

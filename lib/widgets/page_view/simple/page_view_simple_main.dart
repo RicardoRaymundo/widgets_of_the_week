@@ -3,15 +3,15 @@ import 'colored_pages/colored_page_first.dart';
 import 'colored_pages/colored_page_last.dart';
 import 'colored_pages/colored_page_middle.dart';
 
-class PageViewSimplePage extends StatefulWidget {
-  PageViewSimplePage({Key key}) : super(key: key);
+class WidgetsPageView extends StatefulWidget {
+  WidgetsPageView({Key key}) : super(key: key);
 
 
   @override
-  _PageViewSimplePageState createState() => _PageViewSimplePageState();
+  _WidgetsPageViewState createState() => _WidgetsPageViewState();
 }
 
-class _PageViewSimplePageState extends State<PageViewSimplePage> {
+class _WidgetsPageViewState extends State<WidgetsPageView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

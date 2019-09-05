@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-class FabPage extends StatelessWidget {
-  FabPage({Key key}) : super(key: key);
+///
+class WidgetsFloatingActionButton extends StatelessWidget {
+  WidgetsFloatingActionButton({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +11,8 @@ class FabPage extends StatelessWidget {
         child: Text('Pressione o botão extendido abaixo'),
       ),
 
-      /// FAB extendido que contém ícone e rótulo
+      /// Extende um Floating Action Button(FAB) e adiciona icone, label
+      /// e cor de fundo.
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           /// Adicione o código desejado para quando o botão for pressionado

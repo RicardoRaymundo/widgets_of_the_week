@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class OpacityPage extends StatefulWidget {
+class WidgetsOpacity extends StatefulWidget {
   @override
-  OpacityPageState createState() => OpacityPageState();
+  _WidgetsOpacityState createState() => _WidgetsOpacityState();
 }
 
-class OpacityPageState extends State<OpacityPage> {
+class _WidgetsOpacityState extends State<WidgetsOpacity> {
   double _width = 150;
   double _height = 150;
   BorderRadiusGeometry _borderRadius = BorderRadius.circular(12);

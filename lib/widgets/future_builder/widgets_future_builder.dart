@@ -7,7 +7,7 @@ import 'data_list.dart';
 
 
 
-class JsonList extends StatelessWidget {
+class WidgetsFutureBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
