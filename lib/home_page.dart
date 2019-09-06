@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:widgets_of_the_week/widgets/absorb_pointer/widgets_absorb_pointer.dart';
 import 'package:widgets_of_the_week/widgets/animated_container/widgets_animated_container.dart';
 import 'package:widgets_of_the_week/widgets/animated_icon/widgets_animated_icon.dart';
+import 'package:widgets_of_the_week/widgets/animated_padding/widgets_animated_padding.dart';
+import 'package:widgets_of_the_week/widgets/animated_positioned/widgets_animated_positioned.dart';
+import 'package:widgets_of_the_week/widgets/animated_switcher/widgets_animated_switcher.dart';
 import 'package:widgets_of_the_week/widgets/aspect_ratio/widgets_aspect_ratio.dart';
 import 'package:widgets_of_the_week/widgets/clip_r_rect/widgets_clip_r_rect.dart';
 import 'package:widgets_of_the_week/widgets/custom_paint/widgets_custom_paint.dart';
@@ -12,6 +15,7 @@ import 'package:widgets_of_the_week/widgets/fitted_box/widgets_fitted_box.dart';
 import 'package:widgets_of_the_week/widgets/floating_action_button/widgets_fab.dart';
 import 'package:widgets_of_the_week/widgets/future_builder/widgets_future_builder.dart';
 import 'package:widgets_of_the_week/widgets/hero/widgets_hero.dart';
+import 'package:widgets_of_the_week/widgets/indexed_stack/widgets_indexed_stack.dart';
 import 'package:widgets_of_the_week/widgets/inherited_model/widgets_inherited_model.dart';
 import 'package:widgets_of_the_week/widgets/layout_builder/widgets_layout_builder.dart';
 import 'package:widgets_of_the_week/widgets/limited_box/widgets_limited_box.dart';
@@ -87,6 +91,10 @@ class HomePage extends StatelessWidget {
     'Placeholder' : WidgetsPlaceholder(),
     'Rich Text' : WidgetsRichText(),
     'Reorderable List View' : WidgetsReorderableListView(),
+    'Animated Switcher' : WidgetsAnimatedSwitcher(),
+    'Animated Positioned' : WidgetsAnimatedPositioned(),
+    'Animated Padding' : WidgetsAnimatedPadding(),
+    'Indexed Stack' : WidgetsIndexedStack(),
   };
 
   @override
