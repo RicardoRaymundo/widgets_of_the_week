@@ -60,3 +60,5 @@ class _WidgetsIndexedStackState extends State<WidgetsIndexedStack> {
     );
   }
 }
+
+/// https://medium.com/flutter-community/a-deep-dive-into-stack-in-flutter-3264619b3a77
