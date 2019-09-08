@@ -1,5 +1,5 @@
 
-<img src="https://gph.is/g/4DLxvwj" width="200">
+<img src="https://media.giphy.com/media/SYRRApIWwohb8vlerI/giphy.gif" width="200">
 
 # widgets_of_the_week
 
