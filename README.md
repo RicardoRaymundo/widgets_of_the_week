@@ -1,4 +1,4 @@
-![Farmers Market Finder Demo](assets/markdown_gifs/main.gif | height=344)
+![Main Gif Demo](assets/markdown_gifs/main.gif){:height="24px" width="48px"}
 
 # widgets_of_the_week
 
