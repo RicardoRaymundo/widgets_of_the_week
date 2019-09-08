@@ -1,4 +1,4 @@
-![Main Gif Demo](assets/markdown_gifs/main.gif =100x100)
+![Main Gif Demo](assets/markdown_gifs/main.gif)
 
 
 # widgets_of_the_week
