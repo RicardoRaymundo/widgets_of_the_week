@@ -1,5 +1,5 @@
 
-<img src="assets/markdown_gifs/main.gif" width="200">
+<img src="https://gph.is/g/4DLxvwj" width="200">
 
 # widgets_of_the_week
 
