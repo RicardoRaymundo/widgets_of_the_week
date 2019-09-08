@@ -3,7 +3,7 @@
 
 # widgets_of_the_week
 
-App que reune os widgets da semana de Flutter.
+_App_ que reune os _widgets_ da semana de ___Flutter___.
 - [Link da lista 'Flutter Widget of the Week' no Youtube!](https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)
 
 ## Getting Started
