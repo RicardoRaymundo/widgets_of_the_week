@@ -63,6 +63,7 @@ flutter:
     - assets/donuts4.png
     - assets/donuts5.png
     - assets/donuts6.png
+    - assets/markdown_gifs/main.gif
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
