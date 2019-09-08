@@ -1,5 +1,5 @@
-![Main Gif Demo](assets/markdown_gifs/main.gif)
-
+![Main Gif Demo](assets/markdown_gifs/main.gif) 
+<img src="assets/markdown_gifs/main.gif" width="48">
 
 # widgets_of_the_week
 
