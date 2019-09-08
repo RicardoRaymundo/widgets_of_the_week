@@ -8,7 +8,7 @@ botão é definido ___null___ em seu parâmetro ___onPressed___, neste caso por�
 
 <img src="https://media.giphy.com/media/dWBNjqij7mwQJnGRyX/giphy.gif" width="200">
 
-*********
+-----------
 
 ### Links de apoio
 1. [AbsorbPointer - Widget Semanal do Flutter](https://www.youtube.com/watch?v=65HoWqBboI8&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=23)
