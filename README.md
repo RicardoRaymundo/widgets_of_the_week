@@ -1,4 +1,4 @@
-![Main Gif Demo](https://github.com/RicardoRaymundo/widgets_of_the_week/blob/master/assets/markdown_gifs/main.gif | width=100)
+![Main Gif Demo](assets/markdown_gifs/main.gif =100x100)
 {:height="24px" width="48px"}
 
 # widgets_of_the_week
