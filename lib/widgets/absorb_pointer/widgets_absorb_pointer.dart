@@ -31,6 +31,8 @@ class WidgetsAbsorbPointerState extends State<WidgetsAbsorbPointer> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
+              Text(this.isDisabled ? 'Desabilitados' : 'Habilitados!'),
+              SizedBox(height: 20,),
               RaisedButton(
                 padding: EdgeInsets.all(5),
                 child: Text("Click Me"),
