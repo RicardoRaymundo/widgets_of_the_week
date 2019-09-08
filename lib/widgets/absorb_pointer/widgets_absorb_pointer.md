@@ -1,9 +1,9 @@
 # Absorb Pointer
 
-> AbsorbPoint é um widget que absorve enventos de toque dos seus widgets filhos, podendo ser usados
+> ___AbsorbPointer___ é um _widget_ que absorve eventos de toque dos seus _widgets_ filhos, podendo ser usados
 em botões, por exemplo. Sua vantagem é a de conseguir desabilitar os eventos de click de uma árvore
-de widgets sem interferir na diretamente no layout, ao passo que, de modo mais usual, para desativar um
-botão é definido 'null' em seu parametro 'onPressed', neste caso, o botão fica visualmente escurecido.
+de _widgets_ sem interferir diretamente no _layout_, ao passo que, de modo mais usual, para desativar um
+botão é definido ___null___ em seu parâmetro ___onPressed___, neste caso, o botão fica visualmente escurecido.
 
 
 <img src="https://media.giphy.com/media/dWBNjqij7mwQJnGRyX/giphy.gif" width="200">
