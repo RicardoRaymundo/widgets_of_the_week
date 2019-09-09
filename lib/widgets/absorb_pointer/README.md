@@ -12,5 +12,5 @@ botão é definido ___null___ em seu parâmetro ___onPressed___, neste caso por�
 
 ### Links de apoio
 1. [AbsorbPointer - Widget Semanal do Flutter](https://www.youtube.com/watch?v=65HoWqBboI8&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=23)
-2. <https://api.flutter.dev/flutter/widgets/AbsorbPointer-class.html target="_blank">
+2. <https://api.flutter.dev/flutter/widgets/AbsorbPointer-class.html>
 3. <https://www.coderzheaven.com/2019/01/20/flutter-tutorial-enable-disable-any-widget-android-and-ios/>
