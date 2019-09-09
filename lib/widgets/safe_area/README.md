@@ -6,7 +6,7 @@ arredandodados de tela de celular e _appbars_ do sistema operacional, por exempl
 
 <img src="https://media.giphy.com/media/Lm5zA4j8apJyuXI2jy/giphy.gif" width="200">
 
-*********
+-----------
 
 ### Links de apoio
 1. [SafeArea - Widget Semanal do Flutter](https://www.youtube.com/watch?v=lkF0TQJO0bA&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=2)
