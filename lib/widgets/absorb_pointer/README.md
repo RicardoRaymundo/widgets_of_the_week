@@ -16,8 +16,8 @@ botão é definido ___null___ em seu parâmetro ___onPressed___, neste caso por�
 3. <https://www.coderzheaven.com/2019/01/20/flutter-tutorial-enable-disable-any-widget-android-and-ios/>
 
 
-<a href="google.com" target="_blank">teste 1</a>
+<a href="https://google.com" target="_blank">teste 1</a>
 
-<a href="google.com" target="blank">teste 2</a>
+<a href="https://google.com" target="blank">teste 2</a>
 
-[teste 3](http://google.com "Giiidd"){:target="_blank"}
+[teste 3](https://google.com "Giiidd"){:target="_blank"}
