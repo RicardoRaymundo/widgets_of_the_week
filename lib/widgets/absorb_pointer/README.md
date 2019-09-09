@@ -21,3 +21,5 @@ botão é definido ___null___ em seu parâmetro ___onPressed___, neste caso por�
 <a href="https://google.com" target="blank">teste 2</a>
 
 [teste 3](https://google.com "Giiidd"){:target="_blank"}
+
+<a href="http://stackoverflow.com" target="_blank">Go</a>
