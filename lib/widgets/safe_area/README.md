@@ -9,8 +9,6 @@ arredandodados de tela de celular e _appbars_ do sistema operacional, por exempl
 -----------
 
 ### Links de apoio
-1. <a href="https://www.youtube.com/watch?v=lkF0TQJO0bA&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=2" target="_blank">
-SafeArea - Widget Semanal do Flutter
-</a>
+1. [SafeArea - Widget Semanal do Flutter](https://www.youtube.com/watch?v=lkF0TQJO0bA&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=2)
 2. <https://api.flutter.dev/flutter/widgets/SafeArea-class.html>
 3. <https://stackoverflow.com/questions/49227667/using-safearea-in-flutter>
