@@ -39,11 +39,11 @@ class _WidgetsHeroState extends State<WidgetsHero> {
     );
   }
 
-  void _showDonutDetail(int id) {
+  WidgetsHeroDetail _showDonutDetail(int id) {
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (context) {
-          return DetailPage(id);
+          return WidgetsHeroDetail(id);
         },
       ),
     );

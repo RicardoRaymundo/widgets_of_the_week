@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 
-class PageViewPage extends StatefulWidget {
+class WidgetsPageView extends StatefulWidget {
   @override
-  _PageViewPageState createState() => _PageViewPageState();
+  _WidgetsPageViewState createState() => _WidgetsPageViewState();
 }
 
-class _PageViewPageState extends State<PageViewPage> {
+class _WidgetsPageViewState extends State<WidgetsPageView> {
   var currentPageValue;
   PageController pageController;
 

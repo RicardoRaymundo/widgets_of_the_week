@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 
+//TODO :: Verificar se esse padrão é valido
 
 class ShoppingCart extends InheritedWidget {
   const ShoppingCart({

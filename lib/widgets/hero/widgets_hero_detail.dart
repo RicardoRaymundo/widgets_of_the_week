@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class DetailPage extends StatefulWidget {
+class WidgetsHeroDetail extends StatefulWidget {
   final int id;
 
-  DetailPage(this.id);
+  WidgetsHeroDetail(this.id);
 
   @override
-  _DetailPageState createState() => _DetailPageState();
+  _WidgetsHeroDetailState createState() => _WidgetsHeroDetailState();
 }
 
-class _DetailPageState extends State<DetailPage> {
+class _WidgetsHeroDetailState extends State<WidgetsHeroDetail> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'package:widgets_of_the_week/home/home_page.dart';
 
 void main() => runApp(MyApp());
 

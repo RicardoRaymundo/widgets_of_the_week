@@ -17,6 +17,7 @@ import 'package:widgets_of_the_week/widgets/floating_action_button/widgets_fab.d
 import 'package:widgets_of_the_week/widgets/future_builder/widgets_future_builder.dart';
 import 'package:widgets_of_the_week/widgets/hero/widgets_hero.dart';
 import 'package:widgets_of_the_week/widgets/indexed_stack/widgets_indexed_stack.dart';
+import 'package:widgets_of_the_week/widgets/inherited_model/number_manager.dart';
 import 'package:widgets_of_the_week/widgets/inherited_model/widgets_inherited_model.dart';
 import 'package:widgets_of_the_week/widgets/layout_builder/widgets_layout_builder.dart';
 import 'package:widgets_of_the_week/widgets/limited_box/widgets_limited_box.dart';
@@ -61,15 +62,15 @@ class HomePage extends StatelessWidget {
     'Future Builder': WidgetsFutureBuilder(),
     'Fade Transition': WidgetsFadeTransition(),
     'Floating Action Button': WidgetsFloatingActionButton(),
-    'Page View': WidgetsPageView(),
+    'Page View': WidgetsPageViewSimple(),
     'Table': WidgetsTable(),
     'Sliver App Bar': WidgetsSliverAppBar(),
     'Sliver List and Grid': WidgetsSliverListGrid(),
     'Fade In Image': WidgetsFadeInImage(),
     'Stream Builder': WidgetsStreamBuilder(),
     'Inherited Model':
-        NumberManagerWidget(updateMs: 1000, child: MyAppInherited()),
-    'ClipRRect': WidgetsCliRRect(),
+    NumberManager(updateMs: 1000, child: WidgetsInheritedModel()),
+    'ClipRRect': WidgetsClipRRect(),
     'Hero': WidgetsHero(),
     'Custom Paint': WidgetsCustomPaint(),
     'Tooltip': WidgetsTooltip(),
