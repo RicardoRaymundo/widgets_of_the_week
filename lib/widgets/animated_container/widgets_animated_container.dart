@@ -24,10 +24,10 @@ class _WidgetsAnimatedContainerState extends State<WidgetsAnimatedContainer> {
         body: Center(
           child: AnimatedContainer(
             // Propriedades guardadas nesta classe State
-            width: _width,
-            height: _height,
+            width: this._width,
+            height: this._height,
             decoration: BoxDecoration(
-              color: _color,
+              color: this._color,
               borderRadius: _borderRadius,
             ),
             // Definindo a duração da Animação
@@ -46,11 +46,11 @@ class _WidgetsAnimatedContainerState extends State<WidgetsAnimatedContainer> {
               final random = Random();
 
               // Gera valores aleatórios de altura e largura, de 1 à 299.
-              _width = random.nextInt(300).toDouble();
-              _height = random.nextInt(300).toDouble();
+              this._width = random.nextInt(300).toDouble();
+              this._height = random.nextInt(300).toDouble();
 
               // Gera uma cor aleatória.
-              _color = Color.fromRGBO(
+              this._color = Color.fromRGBO(
                 random.nextInt(256),
                 random.nextInt(256),
                 random.nextInt(256),
@@ -58,7 +58,7 @@ class _WidgetsAnimatedContainerState extends State<WidgetsAnimatedContainer> {
               );
 
               // Gera um raio de borda aleatório.
-              _borderRadius =
+              this._borderRadius =
                   BorderRadius.circular(random.nextInt(100).toDouble());
             });
           },

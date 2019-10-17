@@ -10,13 +10,13 @@ class WidgetsClipRRectZigZagClipper extends CustomClipper<Path> {
   Path getClip(Size size) {
     // TODO: implement getClip
     Path path = Path();
-    if (clipType == ClipType.pointed)
+    if (this.clipType == ClipType.pointed)
       createPointedTraingle(size, path);
-    else if (clipType == ClipType.arc)
+    else if (this.clipType == ClipType.arc)
       createBeziarArc(size, path);
-    else if (clipType == ClipType.traingle) {
+    else if (this.clipType == ClipType.traingle) {
       createTriangle(size, path);
-    }else if (clipType == ClipType.waved) {
+    }else if (this.clipType == ClipType.waved) {
       createWave(size, path);
     }
     else

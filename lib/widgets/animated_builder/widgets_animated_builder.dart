@@ -10,29 +10,29 @@ class WidgetsAnimatedBuilder extends StatefulWidget {
 
 class _WidgetsAnimatedBuilderState extends State<WidgetsAnimatedBuilder> with SingleTickerProviderStateMixin {
   Animation<double> animation;
-  AnimationController controller;
+  AnimationController animationController;
 
   @override
   void initState() {
     super.initState();
 
     /// Define o controlador da animacão
-    controller =
+    this.animationController =
         AnimationController(duration: const Duration(seconds: 2), vsync: this);
 
     /// Define a curva da animacão
-    animation = CurvedAnimation(parent: controller, curve: Curves.easeIn)
+    this.animation = CurvedAnimation(parent: this.animationController, curve: Curves.easeIn)
 
       /// Cria um Listener para verificar o estado final das animações,
       /// criando um loop
       ..addStatusListener((status) {
         if (status == AnimationStatus.completed) {
-          controller.reverse();
+          this.animationController.reverse();
         } else if (status == AnimationStatus.dismissed) {
-          controller.forward();
+          this.animationController.forward();
         }
       });
-    controller.forward();
+    this.animationController.forward();
   }
 
   @override
@@ -40,7 +40,7 @@ class _WidgetsAnimatedBuilderState extends State<WidgetsAnimatedBuilder> with Si
 
   @override
   void dispose() {
-    controller.dispose();
+    this.animationController.dispose();
     super.dispose();
   }
 }

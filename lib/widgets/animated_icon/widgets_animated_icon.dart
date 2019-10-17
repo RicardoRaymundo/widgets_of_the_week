@@ -32,7 +32,7 @@ class _WidgetsAnimatedIconState extends State<WidgetsAnimatedIcon>
         vsync: this, duration: Duration(milliseconds: 1000));
   }
 
-  /// Funções que descartam o objeto de controle de animação após o encerramento da mesma
+  /// Métodos que descartam o objeto de controle de animação após o encerramento da mesma
   @override
   void dispose() {
     super.dispose();
@@ -41,7 +41,7 @@ class _WidgetsAnimatedIconState extends State<WidgetsAnimatedIcon>
     _playAnimationController.dispose();
   }
 
-  /// Funções que alternam entre os dois estados dos icones
+  /// Métodos que alternam entre os dois estados dos icones
   void _handleOnPressed() {
     setState(() {
       isPlaying = !isPlaying;
@@ -94,7 +94,7 @@ class _WidgetsAnimatedIconState extends State<WidgetsAnimatedIcon>
                 icon: AnimatedIcons.menu_home,
 
                 /// Progress deve receber a variável de controle de animação
-                progress: _menuAnimationController,
+                progress: this._menuAnimationController,
                 semanticLabel: 'Show menu',
               ),
             ),
@@ -107,7 +107,7 @@ class _WidgetsAnimatedIconState extends State<WidgetsAnimatedIcon>
               tooltip: 'Animated Icon',
               child: AnimatedIcon(
                 icon: AnimatedIcons.ellipsis_search,
-                progress: _ellipsisAnimationController,
+                progress: this._ellipsisAnimationController,
                 semanticLabel: 'Show menu',
               ),
             ),
@@ -120,7 +120,7 @@ class _WidgetsAnimatedIconState extends State<WidgetsAnimatedIcon>
         tooltip: 'Animated Icon',
         child: AnimatedIcon(
           icon: AnimatedIcons.play_pause,
-          progress: _playAnimationController,
+          progress: this._playAnimationController,
           semanticLabel: 'Show menu',
         ),
       ),

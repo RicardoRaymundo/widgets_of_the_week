@@ -31,7 +31,7 @@ class _WidgetsAnimatedPositionedState extends State<WidgetsAnimatedPositioned> w
 
             /// Este é valor de alinhamento que sera alterado pelo botão, a transição
             /// entre os valor será animada
-            bottom: _ironManAlignment,
+            bottom: this._ironManAlignment,
             left: 90,
             child: Container(
               height: 250,
@@ -62,8 +62,8 @@ class _WidgetsAnimatedPositionedState extends State<WidgetsAnimatedPositioned> w
   /// Método que alterna o valor de alinhamento do AnimatedPositioned
   void _flyIronMan() {
     setState(() {
-      if(_ironManAlignment == 320) _ironManAlignment = 50;
-      else _ironManAlignment = 320;
+      if(this._ironManAlignment == 320) this._ironManAlignment = 50;
+      else this._ironManAlignment = 320;
 
     });
   }

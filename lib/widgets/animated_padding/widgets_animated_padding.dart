@@ -9,7 +9,7 @@ class WidgetsAnimatedPadding extends StatefulWidget {
 /// envolvido em um AnimatedPadding, que irá comprimir o Container conforme o
 /// valor de padding é aumentado ou diminuído pelos botões abaixo.
 class _WidgetsAnimatedPaddingState extends State<WidgetsAnimatedPadding> {
-  double padValue = 0;
+  double paddingValue = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -23,14 +23,14 @@ class _WidgetsAnimatedPaddingState extends State<WidgetsAnimatedPadding> {
                 /// porém tambem recebe parametros de durações de animação e curva de animação,
                 /// que irão animar o widget filho
                 duration: const Duration(seconds: 1),
-                padding: EdgeInsets.all(this.padValue),
+                padding: EdgeInsets.all(this.paddingValue),
                 curve: Curves.easeInOut,
                 child: Container(
                   color: Colors.red,
                 ),
               ),
             ),
-            Text('Padding Value: ${this.padValue}'),
+            Text('Padding Value: ${this.paddingValue}'),
             Wrap(
               alignment: WrapAlignment.center,
               children: <Widget>[
@@ -42,7 +42,7 @@ class _WidgetsAnimatedPaddingState extends State<WidgetsAnimatedPadding> {
                     onPressed: () {
                       setState(() {
                         /// Acrescentando padding
-                        if(this.padValue < 170) this.padValue += 10;
+                        if(this.paddingValue < 170) this.paddingValue += 10;
                       });
                     },
                   ),
@@ -55,8 +55,8 @@ class _WidgetsAnimatedPaddingState extends State<WidgetsAnimatedPadding> {
                     onPressed: () {
                       setState(() {
                         /// Subtraindo padding
-                        if (this.padValue != 0) {
-                          this.padValue -= 10;
+                        if (this.paddingValue != 0) {
+                          this.paddingValue -= 10;
                         }
                       });
                     },
@@ -70,10 +70,10 @@ class _WidgetsAnimatedPaddingState extends State<WidgetsAnimatedPadding> {
                     onPressed: () {
                       setState(() {
                         /// Zerando o o valor de padding
-                        if (this.padValue != 0) {
-                          this.padValue = 0;
+                        if (this.paddingValue != 0) {
+                          this.paddingValue = 0;
                         }
-                        else this.padValue = 170;
+                        else this.paddingValue = 170;
                       });
                     },
                   ),

@@ -12,7 +12,7 @@ class WidgetsClipRRectZigZag extends StatelessWidget {
   Widget build(BuildContext context) {
     return ClipPath(
       clipper: WidgetsClipRRectZigZagClipper(clipType),
-      child: child,
+      child: this.child,
     );
   }
 }

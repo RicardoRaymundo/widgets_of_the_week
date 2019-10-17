@@ -12,20 +12,26 @@ class _WidgetsCustomPaintState extends State<WidgetsCustomPaint>
     with TickerProviderStateMixin {
   double percentage = 0.0;
   double newPercentage = 0.0;
-  AnimationController percentageAnimationController;
+  
+  /// Para a nomenclatura da variável, primeiro é dito o que ela é, depois à quem ela pertence
+  /// Porém essa regra só se aplica quando houver mais que uma variável do mesmo tipo
+  ///AnimationController animationControllerPercentage;
+
+  /// Neste caso a variável, por ser única na classe, será nomeada somente de acordo com seu tipo
+  AnimationController animationController;
 
   @override
   void initState() {
     super.initState();
     setState(() {
-      percentage = 0.0;
+      this.percentage = 0.0;
     });
-    percentageAnimationController = new AnimationController(
+    animationController = new AnimationController(
         vsync: this, duration: new Duration(milliseconds: 1000))
       ..addListener(() {
         setState(() {
-          percentage = lerpDouble(
-              percentage, newPercentage, percentageAnimationController.value);
+          this.percentage = lerpDouble(
+              this.percentage, this.newPercentage, this.animationController.value);
         });
       });
   }
@@ -58,7 +64,7 @@ class _WidgetsCustomPaintState extends State<WidgetsCustomPaint>
                       percentage = 0.0;
                       newPercentage = 0.0;
                     }
-                    percentageAnimationController.forward(from: 0.0);
+                    animationController.forward(from: 0.0);
                   });
                 }),
           ),

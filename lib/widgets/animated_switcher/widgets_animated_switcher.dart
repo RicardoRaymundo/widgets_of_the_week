@@ -52,8 +52,8 @@ class _WidgetsAnimatedSwitcherState extends State<WidgetsAnimatedSwitcher> {
               child: const Text('Increment'),
               onPressed: () {
                 setState(() {
-                  _pokeCount += 1;
-                  if (_pokeCount > 3) _pokeCount = 0;
+                  this._pokeCount += 1;
+                  if (this._pokeCount > 3) this._pokeCount = 0;
                 });
               },
             ),

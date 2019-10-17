@@ -57,17 +57,17 @@ class _WidgetsConstrainedBoxState extends State<WidgetsConstrainedBox> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){
-          if(_minHeight == 100 && _maxWidth == 100) {
+          if(this._minHeight == 100 && this._maxWidth == 100) {
             setState(() {
-              _minHeight = 0;
-              _maxWidth = 200;
-              _contraintsStatus = 'Deixando os filhos definirem seus tamanhos';
+              this._minHeight = 0;
+              this._maxWidth = 200;
+              this._contraintsStatus = 'Deixando os filhos definirem seus tamanhos';
             });
           } else {
             setState(() {
-              _minHeight = 100;
-              _maxWidth = 100;
-              _contraintsStatus = 'Definindo o tamanho dos filhos pelas constraints';
+              this._minHeight = 100;
+              this._maxWidth = 100;
+              this._contraintsStatus = 'Definindo o tamanho dos filhos pelas constraints';
 
             });
           }
